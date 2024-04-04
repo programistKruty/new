@@ -1,0 +1,122 @@
+body {
+  display: flex;
+  font-family: Tahoma, sans-serif;
+  color: #2f383b;
+  padding: 0;
+  margin: 0;
+  max-width: 1520px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.container {
+  display: flex;
+  width: 1520px;
+  max-width: 100%;
+  margin-top: -10px;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  background-color: green;
+  padding: 80px;
+  height: 0;
+  width: 100%;
+  margin: 0;
+  bottom: 0;
+  top: 0;
+}
+
+.header h1 {
+  color: #f1f1f1;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: -28px;
+  transform: translateY(2);
+  margin-left: 1000px;
+  font-size: 50px;
+}
+
+.header img {
+  display: flex;
+  position: absolute;
+  margin-top: -40px;
+}
+
+.leftSection {
+  padding: 180px;
+  height: 300px;
+  width: 0;
+  background-color: gray;
+}
+
+.start {
+  color: #f1f1f1;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-left: -60px;
+  cursor: pointer;
+  font-size: 35px;
+  position: absolute;
+}
+
+.coMoge {
+  cursor: pointer;
+  color: #f1f1f1;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-left: -150px;
+  margin-top: 110px;
+  font-size: 35px;
+  position: absolute;
+}
+
+.link {
+  cursor: pointer;
+  color: #f1f1f1;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-left: -60px;
+  margin-top: 200px;
+  font-size: 35px;
+  position: absolute;
+}
+
+.main {
+  width: 660px;
+  margin-top: -660px;
+  margin-left: 360px;
+  display: flex;
+  background-color: black;
+  padding: 330px;
+  align-items: center;
+  justify-content: center;
+}
+
+.main h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #f1f1f1;
+  font-size: 100px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  padding: 56.5px;
+  width: 1566.5px;
+  background-color: green;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #f1f1f1;
+  position: absolute;
+  font-size: 30px;
+}

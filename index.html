@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DZIEN ZIEMI 2024</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <section class="header">
+            <img src="gif.gif">
+            <h1>MAKSYM SYNIUHIN</h1>
+        </section>
+        <section class="leftSection">
+            <p class="start">
+                Start
+            </p>
+            <p class="coMoge">
+                Co mogę zrobić?
+            </p>
+            <p class="link">
+                Linki
+            </p>
+
+        </section>
+        <section class="main">
+            <h1><b>treść</b></h1>
+        </section>
+        <section class="footer">
+            <h1>MAKSYM SYNIUHIN</h1>
+        </section>
+    </div>
+
+    <script>
+        const startElement = document.querySelector(".start");
+        const coElement = document.querySelector(".coMoge");
+        const linkElement = document.querySelector(".link");
+        const mainElement = document.querySelector(".main");
+        startElement.addEventListener("click", () => {
+            mainElement.querySelector("h1 b").textContent = "Start";
+        });
+        coElement.addEventListener("click", () => {
+            mainElement.querySelector("h1 b").textContent = "Co mogę zrobić?";
+        });
+        linkElement.addEventListener("click", () => {
+            mainElement.querySelector("h1 b").textContent = "Linki";
+        });
+
+
+
+
+    </script>
+</body>
+
+</html>
