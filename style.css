@@ -1,18 +1,26 @@
+html{
+  height: 100%;
+  margin:0;
+  padding: 0;
+
+}
 body {
+  height: 100%;
   display: flex;
   font-family: Tahoma, sans-serif;
   color: #2f383b;
   padding: 0;
   margin: 0;
-  max-width: 1520px;
+  width: 100%;
   margin-left: 0;
   margin-right: 0;
 }
 
 .container {
   display: flex;
-  width: 1520px;
+  width: 100%;
   max-width: 100%;
+  min-height: 100%;
   margin-top: -10px;
   flex-direction: column;
 }
@@ -45,6 +53,7 @@ body {
 }
 
 .leftSection {
+  display: flex;
   padding: 180px;
   height: 300px;
   width: 0;
@@ -84,14 +93,16 @@ body {
 }
 
 .main {
-  width: 660px;
+  width: 100%;
+  padding-left: 100px;
   margin-top: -660px;
   margin-left: 360px;
-  display: flex;
+  display: relative;
   background-color: black;
   padding: 330px;
   align-items: center;
   justify-content: center;
+  justify-items: center;
 }
 
 .main h1 {
@@ -101,13 +112,15 @@ body {
   font-size: 100px;
   position: absolute;
   display: flex;
+  align-items: center;
   justify-content: center;
+  justify-items: center;
 }
 
 .footer {
   display: flex;
   padding: 56.5px;
-  width: 1566.5px;
+  width: 100%;
   background-color: green;
   justify-content: center;
   align-items: center;
